@@ -1,0 +1,194 @@
+.navbar-custom {
+    background-color: #2e7d32;
+    color: white;
+    /* verde escuro */
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white;
+    /* deixa os links brancos */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #a5d6a7;
+    /* tom mais claro ao passar o mouse */
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff !important;
+}
+
+/* Links quando passar o mouse */
+.navbar-custom .nav-link:hover {
+    color: #f5d020 !important; /* ou outra cor de destaque */
+}
+
+form .btn.btn-outline-success:hover {
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+}
+
+form .btn.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+
+#logo {
+    width: auto;
+    height: 140px;
+}
+
+#social {
+    float: right;
+    margin-top: 10px;
+}
+
+#social img {
+    width: 60px;
+    height: 50px;
+}
+
+.cta-section {
+    
+    /* verde escuro */
+    color: #2e7d32;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+/* Texto CTA */
+.cta-text {
+    flex: 1 1 400px;
+}
+
+.cta-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.cta-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Botão */
+.cta-button {
+    background-color: #f5d020;
+    /* amarelo/dourado */
+    color: #2c7a4b;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Imagem CTA */
+.cta-image {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.cta-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .cta-container {
+        flex-direction: column;
+    }
+
+    .cta-text,
+    .cta-image {
+        text-align: center;
+    }
+}
+
+.imagem2 {
+  max-width: 960px;  /* largura máxima */
+  margin: 0 auto;    /* centraliza */
+  border-radius: 15px; 
+  overflow: hidden;  /* corta a sobra nos cantos arredondados */
+}
+
+/* controla altura das imagens */
+#carouselExampleSlidesOnly img {
+  height: 500px;       /* altura mais equilibrada */
+  object-fit: cover;   /* preenche sem distorcer */
+  width: 100%;         /* ocupa todo espaço do container */
+}
+
+#section-vendidos{
+    text-align: center;
+}
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+}
+#section-vendidos img{
+    height: 400px; /* diminui a altura da imagem */
+    border-radius: 10px;
+    object-fit: cover; /* mantém o corte proporcional */
+}
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-vendidos .preco{
+    color: #2c7a4b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#rodape {
+    background-color: #2c7a4b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+#rodape a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+#rodape a:hover {
+    color: #fff;
+}
+
+#rodape i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
